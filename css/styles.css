@@ -65,6 +65,24 @@ main>header {
     text-align: center;
 }
 
+.main-banner {
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-img-1 {
+    background-image: url(https://picsum.photos/600);
+}
+
+.banner-img-2 {
+    background-image: url(https://picsum.photos/650);
+}
+
+.banner-img-3 {
+    background-image: url(https://picsum.photos/675);
+}
+
 #our-package-section>header {
     height: 100px;
     align-content: center;
@@ -95,4 +113,11 @@ main>header {
 
 footer {
     text-align: center;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 480px) {
+    .main-content {
+        flex-direction: column;
+    }
 }

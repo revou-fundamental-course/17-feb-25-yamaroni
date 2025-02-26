@@ -36,12 +36,28 @@
         <section class="main-content">
             <!-- Banner Autoslide -->
             <aside class="main-container">
-                <p>Banner Autoslide</p>
+                <div class="main-banner banner-img-1"></div>
+                <div class="main-banner banner-img-2"></div>
+                <div class="main-banner banner-img-3"></div>
             </aside>
 
             <!-- Form Contact Us -->
             <aside class="main-container">
-                <p>Form Contact Us</p>
+                <header>
+                    <h2>Form Contact Us</h2>
+                </header>
+
+                <!-- Form Validation -->
+                <form>
+                    <div>
+                        <label for="name-input">Name:</label>
+                        <input type="text" id="name-input" required>
+                    </div>
+
+                    <div>
+                        <button type="button" onclick="validateForm();">Submit</button>
+                    </div>
+                </form>
             </aside>
         </section>
 
@@ -74,6 +90,9 @@
     <footer>
         <p>Made by Yama@2025</p>
     </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
